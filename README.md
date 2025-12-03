@@ -44,7 +44,8 @@ Prepaing Active Directory Infrastructure in Azure. Here I setup domain controlle
 <br />
 
 <p>
-<img <img width="1598" height="763" alt="Screenshot 2025-11-04 054445" src="https://github.com/user-attachments/assets/f2dfaa0b-1438-4db4-a76f-2780eade875e" />
+<img <img width="1598" height="763" alt="Screenshot 2025-11-04 054445" src="https://github.com/user-attachments/assets/7107be8f-6986-4c57-853a-2949688a49ec" />
+/>
 />
 </p>
 <p>
