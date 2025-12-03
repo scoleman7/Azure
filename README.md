@@ -34,18 +34,22 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1598" height="769" alt="Screenshot 2025-11-04 053513" src="https://github.com/user-attachments/assets/49a68d19-0e17-478d-b576-a4694dcbfc33" />
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Prepaing Active Directory Infrastructure in Azure. Here I setup domain controller in Azure and named it DC-1. 
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img <img width="1598" height="763" alt="Screenshot 2025-11-04 054445" src="https://github.com/user-attachments/assets/f2dfaa0b-1438-4db4-a76f-2780eade875e" />
+/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+I then continued on to set ipconfig for DC-1 to "static" so that it will not change because I’m telling client-1 to use dc-1 as the DNS server. If it stayed in dynamic the DNS settings would no longer work if the IP address changes for dc-1. 
+
 </p>
 <br />
 
